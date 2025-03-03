@@ -1,51 +1,22 @@
-# Bank_Data
+# **Bank Marketing Campaign Analysis using Machine Learning**
 
-1] Objective:
+## 📌 Overview  
+This project analyzes a **bank marketing dataset** to predict whether a customer will subscribe to a **term deposit**. It follows an end-to-end machine learning workflow, including **data preprocessing, feature selection, model training, evaluation, and handling class imbalance**.  
 
-    Perform detailed analysis and classification of bank data to derive insights and predict outcomes using machine learning models.
+## 🚀 Project Workflow  
+1️⃣ **Data Ingestion** → Load the dataset in Pandas  
+2️⃣ **Exploratory Data Analysis (EDA)** → Visualize categorical features and check for missing values  
+3️⃣ **Data Preprocessing** → Encode categorical features and standardize numerical values  
+4️⃣ **Feature Selection** → Use **RandomForestClassifier + RFE**  
+5️⃣ **Handling Imbalanced Data** → Apply **SMOTE** to balance classes  
+6️⃣ **Model Training & Evaluation** → Train and compare multiple ML models  
+7️⃣ **Results & Summary**  
 
-2] Dataset:
-
-    The project uses a dataset named bank.csv.
-    Data contains information about customers and their interactions with a bank (e.g., marketing campaigns).
-
-3] Technologies & Libraries Used:
-
-      Data Handling: pandas, numpy
-      Visualization: seaborn, matplotlib
-      Machine Learning Models:
-      Logistic Regression
-      Decision Tree
-      Random Forest
-      k-Nearest Neighbors (KNN)
-      Support Vector Classifier (SVC)
-      XGBoost
-      AdaBoost
-      Naive Bayes (Gaussian and Multinomial)
-      Model Evaluation:
-      Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
-      Confusion Matrix
-      ROC Curve
-
-4] Key Features of the Notebook:
-
-      Exploratory Data Analysis (EDA):
-      Understanding the data structure (shape, head, info).
-      Visualizing trends and relationships between features using plots.
-      Data Preprocessing:
-      Encoding categorical variables using LabelEncoder.
-      Splitting the dataset into training and testing sets using train_test_split.
-      Feature Selection:
-      Recursive Feature Elimination (RFE) with Random Forest Classifier.
-      Model Training and Comparison:
-      Training multiple machine learning models.
-      Comparing models based on performance metrics.
-
-5] Output:
-
-    Identifies the best-performing model for bank data classification.
-    Provides clear visualizations and insights into model performance.
-
-6] Usage:
-
-    Clone the repository and execute the Bank_Data.ipynb file to replicate the analysis and experiment with the data.
+## 📂 Project Structure  
+```bash
+📁 Bank-Marketing-Analysis/
+│── 📄 bank.csv              # Dataset
+│── 📄 Bank_Marketing_Analysis.ipynb  # Jupyter Notebook with full implementation
+│── 📄 README.md              # Project documentation
+│── 📄 requirements.txt       # Required dependencies
+│── 📁 results/               # Model performance results
