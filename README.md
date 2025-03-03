@@ -6,7 +6,7 @@ This project analyzes a **Bank Marketing Campaign Dataset** using machine learni
 ## 📊 Dataset
 The dataset comes from a direct marketing campaign of a Portuguese banking institution. It contains client information, campaign details, and the final outcome (`y`: yes/no for subscription).
 
-- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- **Source:** Kaggle
 - **Format:** CSV file (`bank.csv`)
 - **Key Features:**
   - 🏦 Client information (age, job, marital status, education, etc.)
