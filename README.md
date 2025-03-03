@@ -53,42 +53,10 @@ The dataset comes from a direct marketing campaign of a Portuguese banking insti
 | KNN                 |  **0.845836**     |
 ```
 
-## ⚡ Installation & Usage
-```sh
-# Clone the repository
-git clone https://github.com/yourusername/bank-marketing-analysis.git
-cd bank-marketing-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the script
-python bank_marketing_analysis.py
-```
-
-## 📦 Dependencies
-```plaintext
-- Python 3.x
-- Pandas, NumPy, Seaborn, Matplotlib
-- Scikit-learn, Imbalanced-learn
-```
-
 ## 🚀 Future Enhancements
 ```plaintext
 - Implement deep learning models.
 - Tune hyperparameters for better accuracy.
 - Deploy as a web application for real-time predictions.
-```
-
-## 👨‍💻 Author
-```plaintext
-Jayesh Patil  
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-🔗 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)  
-```
-
-## 📜 License
-```plaintext
-This project is licensed under the MIT License.
 ```
 
