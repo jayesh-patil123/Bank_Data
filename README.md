@@ -20,3 +20,38 @@ This project analyzes a **bank marketing dataset** to predict whether a customer
 │── 📄 README.md              # Project documentation
 │── 📄 requirements.txt       # Required dependencies
 │── 📁 results/               # Model performance results
+
+## 🔍 Dataset Details
+The dataset contains marketing campaign data from a Portuguese bank.
+Target variable: y (yes/no) indicating if a customer subscribed to a term deposit.
+Features: Job, Marital Status, Education, Contact Type, Duration, Campaign, Previous Outcome, etc.
+📊 Exploratory Data Analysis (EDA)
+✔ Checked for missing values and dataset shape
+✔ Visualized categorical feature distributions using Seaborn
+✔ Examined class imbalance in the target variable
+
+🛠 Data Preprocessing
+✔ Encoded categorical variables using Label Encoding
+✔ Applied feature selection using RandomForestClassifier + RFE
+✔ Balanced the dataset using SMOTE
+
+🔬 Models Used
+✔ Logistic Regression
+✔ Naive Bayes
+✔ K-Nearest Neighbors (KNN)
+
+📈 Model Performance
+Model	Accuracy
+Logistic Regression	XX%
+Naive Bayes	XX%
+KNN	XX%
+🚀 Future Improvements
+✅ Hyperparameter Tuning – Use GridSearchCV to optimize models
+✅ Try XGBoost – A powerful boosting algorithm
+✅ Feature Importance Analysis – Use SHAP or RandomForestClassifier.feature_importances_
+✅ Deploy Model – Convert notebook to Flask app and deploy using Render
+✅ AutoML Integration – Use TPOT for automated model selection
+
+
+This is **clean**, **well-formatted**, and **GitHub-friendly**. 🚀 Let me know if you need any modifications!
+
