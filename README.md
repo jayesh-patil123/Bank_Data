@@ -48,11 +48,10 @@ The dataset comes from a direct marketing campaign of a Portuguese banking insti
 ```plaintext
 | Model Name            | Accuracy Score |
 |----------------------|---------------|
-| Logistic Regression  |  **X.XX**     |
-| Naïve Bayes         |  **X.XX**     |
-| KNN                 |  **X.XX**     |
+| Logistic Regression  |  **0.838796**     |
+| Naïve Bayes         |  **0.755523**     |
+| KNN                 |  **0.845836**     |
 ```
-(Replace `X.XX` with actual results after running the code.)
 
 ## ⚡ Installation & Usage
 ```sh
